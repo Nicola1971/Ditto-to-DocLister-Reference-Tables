@@ -36,7 +36,7 @@
 #### More Extenders Examples
 | Description | Ditto Example | DocLister Examples | 
 | ------------- | ------------- | ------------- | 
-| enable request extender for display,tpl,sortDir,sortBy parameters | ``` &extenders=`request` &good=`display,tpl,sortDir,sortBy` ```  | ``` &extenders=`request` &requestActive=`display||tpl||sortDir:g:(ASC,DESC)||sortBy:g:(*):int`  ``` |
+| enable request extender for display,tpl,sortDir,sortBy parameters | ``` &extenders=`request` &good=`display,tpl,sortDir,sortBy` ```  | ``` &extenders=`request` &requestActive=`display\|\|tpl\|\|sortDir:g:(ASC,DESC)\|\|sortBy:g:(*):int`  ``` |
 | ------------- | ------------- | ------------- |  
 | ------------- | ------------- | ------------- | 
 | ------------- | ------------- | ------------- | 
