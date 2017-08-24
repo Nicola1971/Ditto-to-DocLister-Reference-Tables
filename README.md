@@ -5,8 +5,8 @@
 | Ditto Parameter | Ditto Example | DocLister Parameter | DocLister Example | 
 | ------------- | ------------- | ------------- | ------------- |
 | config  | ``` &config=`CONFIG_NAME` ``` | :x: | :x: |
-| dateFormat  | ------------- | ------------- | ------------- |
-| dateSource  | ------------- | ------------- | ------------- |
+| dateFormat  | ``` &dateFormat=`%d.%m.%Y` ``` | :heavy_check_mark:  | :heavy_check_mark:  |
+| dateSource  | ``` &dateSource=`pub_date` ``` | :heavy_check_mark:  | :heavy_check_mark:  |
 | debug  | ``` &debug=`1` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | depth  | ``` &depth=`3` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | display  | ``` &display=`10` ``` | :heavy_check_mark: | :heavy_check_mark: |
@@ -18,10 +18,10 @@
 | hidePrivate  | ------------- | ------------- | ------------- |
 | id  | ------------- | ------------- | ------------- |
 | keywords  | ------------- | ------------- | ------------- |
-| language  | ------------- | ------------- | ------------- |
-| noResults  | ------------- | ------------- | ------------- |
-| orderBy  | ------------- | ------------- | ------------- |
-| parents  | ------------- | ------------- | ------------- |
+| language  | ------------- | customLang | ------------- |
+| noResults  | ``` &noResults=`<p>No results.</p>` ``` | noneTPL | ``` &noneTPL=`NoneTpl` ``` |
+| orderBy  | ``` &orderBy=`pub_date DESC` ``` | :heavy_check_mark: | :heavy_check_mark: |
+| parents  | ``` &parents=`2,12` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | phx  | ------------- | ------------- | ------------- |
 | randomize  | ------------- | ------------- | ------------- |
 | removeChunk  | ------------- | ------------- | ------------- |
@@ -63,21 +63,22 @@
 
 | Ditto Parameter | Ditto Example | DocLister Parameter | DocLister Example | 
 | ------------- | ------------- | ------------- | ------------- |
-| paginate  | ------------- | ------------- | ------------- |
-| paginateAlwaysShowLinks  | ------------- | ------------- | ------------- |
+| paginate  | ------------- | :heavy_check_mark: | ``` &paginate=`pages` ``` |
+| paginateAlwaysShowLinks  | ------------- | PrevNextAlwaysShow | ``` &PrevNextAlwaysShow=`1` ``` |
 | paginateSplitterCharacter  | ------------- | ------------- | ------------- |
-| tplPaginateCurrentPage  | ------------- | ------------- | ------------- |
-| tplPaginateNextOff  | ------------- | ------------- | ------------- |
-| tplPaginatePage  | ------------- | ------------- | ------------- |
-| tplPaginatePrevious  | ------------- | ------------- | ------------- |
-| tplPaginatePreviousOff  | ------------- | ------------- | ------------- |
+| tplPaginateCurrentPage  | ------------- | TplCurrentPage | ------------- |
+| tplPaginateNext  | ------------- | TplNextP | ------------- |
+| tplPaginateNextOff  | ------------- | TplNextI | ------------- |
+| tplPaginatePage  | ------------- | TplPage | ------------- |
+| tplPaginatePrevious  | ------------- | TplPrevP | ------------- |
+| tplPaginatePreviousOff  | ------------- | TplPrevI | ------------- |
 
 
 ## Templates
 
 | Ditto Parameter | Ditto Example | DocLister Parameter | DocLister Example | 
 | ------------- | ------------- | ------------- | ------------- |
-| outerTpl  | ------------- | ------------- | ------------- |
+| outerTpl  | ``` &outerTpl=`OuterTpl` ``` | ownerTPL | ``` &ownerTPL=`OwnerTpl` ``` |
 | tpl  | ``` &tpl=`NewsTpl` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | tplAlt  | ------------- | ------------- | ------------- |
 | tplCurrentDocument  | ------------- | ------------- | ------------- |
