@@ -1,4 +1,4 @@
-# D2DL
+# Ditto to DocLister Reference Tables
 
 ## Main parameters
 
