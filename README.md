@@ -77,9 +77,9 @@
 
 | Ditto Parameter | Ditto Example | DocLister Parameter | DocLister Example | 
 | ------------- | ------------- | ------------- | ------------- |
-| outerTpl  | ------------- | ------------- | ------------- |
+| outerTpl  | ``` &outerTpl=`NewsOuterTpl` ``` | ownerTPL | ``` &ownerTPL=`NewsOuterTpl` ``` |
 | tpl  | ``` &tpl=`NewsTpl` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | tplAlt  | ------------- | ------------- | ------------- |
 | tplCurrentDocument  | ------------- | ------------- | ------------- |
-| tplFirst  | ------------- | ------------- | ------------- |
-| tplLast  | ------------- | ------------- | ------------- |
+| tplFirst | ``` &tplFirst=`NewsTplFirst` ``` | :heavy_check_mark: | :heavy_check_mark: |
+| tplLast | ``` &tplLast=`NewsTplLast` ``` | :heavy_check_mark: | :heavy_check_mark: |
