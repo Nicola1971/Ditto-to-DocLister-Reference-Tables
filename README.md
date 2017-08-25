@@ -50,7 +50,7 @@
 | globalFilterDelimiter  | ------------- | ------------- | ------------- |
 | localFilterDelimiter  | ------------- | ------------- | ------------- |
 
-#### More Filtering Examples
+#### More Doclister Filtering Examples
 | Description | Ditto Example | DocLister Example | 
 | ------------- | ------------- | ------------- | 
 | show news in homepage with tv selection | ``` &filter=`NewsInHOME,yes` ```  | ``` &filters=`AND(tv:NewsInHOME:is:yes)` ``` |
@@ -63,15 +63,23 @@
 
 | Ditto Parameter | Ditto Example | DocLister Parameter | DocLister Example | 
 | ------------- | ------------- | ------------- | ------------- |
-| paginate  | ------------- | ------------- | ------------- |
-| paginateAlwaysShowLinks  | ------------- | ------------- | ------------- |
+| paginate  | ``` &paginate=`1` ``` | :heavy_check_mark: | ``` &paginate=`pages` ``` |
+| paginateAlwaysShowLinks  | ``` &paginateAlwaysShowLinks=`1` ``` | PrevNextAlwaysShow | ``` &PrevNextAlwaysShow=`1` ``` |
 | paginateSplitterCharacter  | ------------- | ------------- | ------------- |
 | tplPaginateCurrentPage  | ------------- | ------------- | ------------- |
-| tplPaginateNextOff  | ------------- | ------------- | ------------- |
-| tplPaginatePage  | ------------- | ------------- | ------------- |
+| tplPaginateNextOff  | ``` &TplNextI=`CHUNK_NAME` ``` | TplNextI | ``` &TplNextI=`CHUNK_NAME` ``` |
+| tplPaginatePage  | ``` &tplPaginatePage=`CHUNK_NAME` ``` | TplPage | ``` &TplPage=`CHUNK_NAME` ``` |
 | tplPaginatePrevious  | ------------- | ------------- | ------------- |
-| tplPaginatePreviousOff  | ------------- | ------------- | ------------- |
+| tplPaginatePreviousOff  | ``` &tplPaginatePreviousOff=`CHUNK_NAME` ``` | TplPrevI | ``` &TplPrevI=`CHUNK_NAME` ``` |
 
+#### More Doclister Pagination Examples
+| Description | Ditto Example | DocLister Example | 
+| ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- |  
+| ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- | 
 
 ## Templates
 
