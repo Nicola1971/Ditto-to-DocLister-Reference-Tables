@@ -69,7 +69,7 @@
 | paginateAlwaysShowLinks  | ``` &paginateAlwaysShowLinks=`1` ``` | PrevNextAlwaysShow | ``` &PrevNextAlwaysShow=`1` ``` |
 | paginateSplitterCharacter  | ------------- | ------------- | ------------- |
 | tplPaginateCurrentPage  | ------------- | ------------- | ------------- |
-| tplPaginateNextOff  | ``` &TplNextI=`CHUNK_NAME` ``` | TplNextI | ``` &TplNextI=`CHUNK_NAME` ``` |
+| tplPaginateNextOff  | ``` &tplPaginateNextOff=`CHUNK_NAME` ``` | TplNextI | ``` &TplNextI=`CHUNK_NAME` ``` |
 | tplPaginatePage  | ``` &tplPaginatePage=`CHUNK_NAME` ``` | TplPage | ``` &TplPage=`CHUNK_NAME` ``` |
 | tplPaginatePrevious  | ------------- | ------------- | ------------- |
 | tplPaginatePreviousOff  | ``` &tplPaginatePreviousOff=`CHUNK_NAME` ``` | TplPrevI | ``` &TplPrevI=`CHUNK_NAME` ``` |
