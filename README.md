@@ -14,7 +14,7 @@
 | extenders  | ``` &extenders=`request` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | format  | ------------- | ------------- | ------------- |
 | hiddenFields  | ------------- | ------------- | ------------- |
-| hideFolders  | ``` &hideFolders=`1` ``` | showParent | ``` &showParent=`0` ``` |
+| hideFolders  | ``` &hideFolders=`1` ``` | addWhereList | ``` &addWhereList=`isfolder=0` ``` |
 | hidePrivate  | ------------- | ------------- | ------------- |
 | id  | ------------- | ------------- | ------------- |
 | keywords  | ------------- | ------------- | ------------- |
