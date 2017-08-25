@@ -20,7 +20,7 @@
 | keywords  | ------------- | ------------- | ------------- |
 | language  | ------------- | ------------- | ------------- |
 | noResults  | ------------- | ------------- | ------------- |
-| orderBy  | ------------- | ------------- | ------------- |
+| orderBy  | ``` &orderBy=`pagetitle ASC` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | parents  | ``` &parents=`0` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | phx  | ------------- | ------------- | ------------- |
 | randomize  | ``` &randomize=`1` ``` | orderBy | ``` &orderBy=`RAND()` ``` |
@@ -29,6 +29,8 @@
 | seeThruUnpub  | ------------- | ------------- | ------------- |
 | showInMenuOnly  | ``` &showInMenuOnly=`1` ``` | addWhereList | ``` &addWhereList=`hidemenu=0` ``` |
 | showPublishedOnly  | ``` &showPublishedOnly=`1` ``` | addWhereList | ``` &addWhereList=`published=1` ``` |
+| sortBy  | ``` &sortBy=`pagetitle` ``` | :heavy_check_mark: | :heavy_check_mark: |
+| sortDir  | ``` &sortDir=`ASC` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | start  | ``` &start=`3` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | total  | ``` &total=`100` ``` | :heavy_check_mark: | :heavy_check_mark: |
 | where  | ------------- | ------------- | ------------- |
