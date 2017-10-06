@@ -56,11 +56,13 @@
 | Description | Ditto Example | DocLister Example | 
 | ------------- | ------------- | ------------- | 
 | show news in homepage with tv selection | ``` &filter=`NewsInHOME,yes` ```  | ``` &filters=`AND(tv:NewsInHOME:is:yes)` ``` |
-| show news (in sidebar) excluded the current document | ``` &filter=`id,[*id*],2` ```  | ``` &filters=`AND(id:isno[*id*])` ``` |
+| show news (in sidebar) excluded the current document | ``` &filter=`id,[*id*],2` ```  | ``` &filters=`AND(id:isnot:[*id*])` ``` |
 | ------------- | ------------- | ------------- |  
 | ------------- | ------------- | ------------- | 
 | ------------- | ------------- | ------------- | 
 | ------------- | ------------- | ------------- | 
+
+More DocLister filtering examples can be found here: http://www.evolution-docs.com/extras/doclister/filters
 
 ## Pagination
 
